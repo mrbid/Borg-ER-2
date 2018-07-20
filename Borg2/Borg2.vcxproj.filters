@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{62eec460-0db6-4b61-bc5f-05417f7f6b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SynthEngine">
+      <UniqueIdentifier>{d375dde9-2647-4c78-8440-7f453af76146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{b2edd86b-b7a0-47ca-ad62-af83851e3c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Win32">
+      <UniqueIdentifier>{2a302993-3e9b-4afd-bd68-082ca035977c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SynthEngine">
+      <UniqueIdentifier>{ffb6f144-92cf-47ad-be57-9c5ca56c9d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{ae74dd78-41a9-47f3-aabf-722c73ab92f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Borg2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cDial.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cGfxBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cHoverButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cSampleScope.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ADSR.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BitCrusher.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BitReflecter.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Oscillator.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SynthEngine.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAudio.cpp">
+      <Filter>Source Files\SynthEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cButton.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cDial.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cGfxBox.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cHoverButton.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cSampleScope.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cWidget.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Borg2.h">
+      <Filter>Header Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ADSR.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BitCrusher.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BitReflecter.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Oscillator.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SynthEngine.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAudio.h">
+      <Filter>Header Files\SynthEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="float_cast.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLib.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gfx\add.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\am.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\back.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Borg2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\credits.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\fm.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\l.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lbip.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\limp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lnoi1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lnoi2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lnoi3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lnoi4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lrbez.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lrnd1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lrnd2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lrspl.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lsaw.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lsli.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\lsqr.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\ltap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\ltri.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\nm.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\osc8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\r.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\s1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\s2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\saw.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sawaa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sharp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sin.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sinaa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\smooth.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sqr.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sqraa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\sub.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\times.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\tri.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gfx\triaa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Borg2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
