@@ -1,10 +1,8 @@
 /*
-	Code written by James Fletcher (LiX). 
-	Copyright 2009 - 2010. 
-	ethocybin@googlemail.com
-	http://www.mrpuzzle.org/
-
-	Apologies for this mess.
+	Code written by James Fletcher.
+	Copyright 2009 - 2010.
+	
+	http://github.com/mrbid
 */
 
 #ifndef OSCILLOSCOPE_H
