@@ -1,0 +1,176 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_BIG            ICON                    "Borg2.ico"
+IDI_ICON_SMALL          ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 317, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Borg ER-2"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 311
+        BOTTOMMARGIN, 219
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BMP_BACK                BITMAP                  "gfx\\back.bmp"
+BMP_AM                  BITMAP                  "gfx\\am.bmp"
+BMP_FM                  BITMAP                  "gfx\\fm.bmp"
+BMP_L                   BITMAP                  "gfx\\l.bmp"
+BMP_LNOI1               BITMAP                  "gfx\\lnoi1.bmp"
+BMP_LNOI2               BITMAP                  "gfx\\lnoi2.bmp"
+BMP_LNOI3               BITMAP                  "gfx\\lnoi3.bmp"
+BMP_LNOI4               BITMAP                  "gfx\\lnoi4.bmp"
+BMP_LRBEZ               BITMAP                  "gfx\\lrbez.bmp"
+BMP_LRND1               BITMAP                  "gfx\\lrnd1.bmp"
+BMP_LRND2               BITMAP                  "gfx\\lrnd2.bmp"
+BMP_LRSPL               BITMAP                  "gfx\\lrspl.bmp"
+BMP_LSAW                BITMAP                  "gfx\\lsaw.bmp"
+BMP_LSLI                BITMAP                  "gfx\\lsli.bmp"
+BMP_LSQR                BITMAP                  "gfx\\lsqr.bmp"
+BMP_LTAP                BITMAP                  "gfx\\ltap.bmp"
+BMP_LTRI                BITMAP                  "gfx\\ltri.bmp"
+BMP_R                   BITMAP                  "gfx\\r.bmp"
+BMP_S1                  BITMAP                  "gfx\\s1.bmp"
+BMP_S2                  BITMAP                  "gfx\\s2.bmp"
+BMP_SAW                 BITMAP                  "gfx\\saw.bmp"
+BMP_SAWAA               BITMAP                  "gfx\\sawaa.bmp"
+BMP_SIN                 BITMAP                  "gfx\\sin.bmp"
+BMP_SINAA               BITMAP                  "gfx\\sinaa.bmp"
+BMP_SQR                 BITMAP                  "gfx\\sqr.bmp"
+BMP_SQRAA               BITMAP                  "gfx\\sqraa.bmp"
+BMP_TRI                 BITMAP                  "gfx\\tri.bmp"
+BMP_TRIAA               BITMAP                  "gfx\\triaa.bmp"
+BMP_SHARP               BITMAP                  "gfx\\sharp.bmp"
+BMP_SMOOTH              BITMAP                  "gfx\\smooth.bmp"
+BMP_ADD                 BITMAP                  "gfx\\add.bmp"
+BMP_NO                  BITMAP                  "gfx\\nm.bmp"
+BMP_SUB                 BITMAP                  "gfx\\sub.bmp"
+BMP_CREDIT              BITMAP                  "gfx\\credits.bmp"
+BMP_LIMP                BITMAP                  "gfx\\limp.bmp"
+BMP_LBIP                BITMAP                  "gfx\\lbip.bmp"
+BMP_OSC1                BITMAP                  "gfx\\osc1.bmp"
+BMP_OSC2                BITMAP                  "gfx\\osc2.bmp"
+BMP_OSC3                BITMAP                  "gfx\\osc3.bmp"
+BMP_OSC4                BITMAP                  "gfx\\osc4.bmp"
+BMP_OSC5                BITMAP                  "gfx\\osc5.bmp"
+BMP_OSC6                BITMAP                  "gfx\\osc6.bmp"
+BMP_OSC7                BITMAP                  "gfx\\osc7.bmp"
+BMP_OSC8                BITMAP                  "gfx\\osc8.bmp"
+BMP_TIMES               BITMAP                  "gfx\\times.bmp"
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
